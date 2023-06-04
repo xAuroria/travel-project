@@ -13,7 +13,7 @@ header {
       rgba(39, 32, 68, 0.6),
       rgba(39, 32, 68, 0.6)
     ),
-    url("/images/bg.png");
+    url("/images/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -52,6 +52,45 @@ header a {
   color: #272044;
   display: inline-block;
   margin-top: 32px;
+}
+
+footer {
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("/images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 100px 171px;
+}
+
+footer h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.7;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.footer-column {
+  margin-right: 64px;
 }
 
 @media (max-width: 1200px) {
