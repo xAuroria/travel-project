@@ -63,6 +63,11 @@ header a {
   justify-content: center;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
 .main-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
