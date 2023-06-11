@@ -87,10 +87,7 @@ footer a {
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-}
-
-.footer-column {
-  margin-right: 64px;
+  grid-gap: 64px;
 }
 
 @media (max-width: 1200px) {
@@ -113,5 +110,16 @@ footer a {
   header a {
     font-size: 12px;
     padding: 12px 28px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  footer {
+    padding: 100px 100px;
   }
 }
